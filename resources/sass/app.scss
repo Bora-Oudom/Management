@@ -1,0 +1,47 @@
+@import "~bootstrap/scss/bootstrap";
+
+$navBar:  #808B96  ;
+$background: #F7F9F9 ;
+$text: #FBFCFC;
+
+
+body{
+    background-image: url('/img/bg2.jpg'); 
+    background-size: cover; 
+    background-position: top center;
+
+    color: $text;
+}
+.navbar{
+    background: $navBar;
+    a{
+    color: $text;
+    padding: 5px;
+    text-decoration: none;
+    }
+    a:hover{
+    color: #EC7063;
+    transform: 1s;
+    }
+}
+
+.sub-nav{
+    background: #FF7676 ;
+    box-shadow: 0 6px 10px 0 #E5E8E8  ;
+    margin-bottom: 40px;
+    a{
+    color: $text;
+    padding: 5px;
+    text-decoration: none;
+    }
+    a:hover{
+    color: #EC7063;
+    transform: 1s;
+    
+    }
+}
+
+
+
+
+
